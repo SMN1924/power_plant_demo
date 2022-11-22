@@ -86,7 +86,7 @@ Follow the steps in [Open Edge Insights installation guide](https://open-edge-in
     pip install numpy==1.22.3 -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com 
     pip install scipy==1.8.0 -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
     ```
-2. Download plugin from [bcmath.zip](bcmath.zip) [BatteryAlgs.zip](BatteryAlgs.zip), copy them from host to the containe.
+2. Download plugin from [bcmath.zip](bcmath.zip) [BatteryAlgs.zip](BatteryAlgs.zip), copy them from host to the container.
     ```sh
     sudo docker cp ./bcmath.zip ekuiper:/kuiper/bcmath.zip 
     sudo docker cp ./BatteryAlgs.zip ekuiper:/kuiper/BatteryAlgs.zip
