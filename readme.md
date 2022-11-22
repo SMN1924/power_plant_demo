@@ -109,7 +109,7 @@ Follow the steps in [Open Edge Insights installation guide](https://open-edge-in
     ![](power_plant_screenshots/neuronStream.png)
     ![](power_plant_screenshots/dt1Stream.png)
  
-7. Add the following rules, go to [eKuiper_rules.md](eKuiper_rules.md) to find details.
+7. Add the following rules, go to [eKuiper_rules.md](ekuiper_rules.md) to find details.
     ![](power_plant_screenshots/rules.png)
  
 ## Step 4: Configure EMQX 
