@@ -29,7 +29,7 @@ SELECT
 
 FROM
 
-  "demo6/exception"
+  "demo/exception"
 ```
 **Action Handler**  
 **action:** republish  
