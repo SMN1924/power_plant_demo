@@ -27,7 +27,7 @@ select cellcalc(*),ts as ts from dt1Stream;
 **Rule ID**:battery calc  
 **SQL**:
 ```sql
-select select bcstd(*) from dt1Stream;
+select bcstd(*) from dt1Stream;
 ```
 **Actions(Sink):** mqtt  
 **MQTT broker address:** tcp://emqx:1883   
