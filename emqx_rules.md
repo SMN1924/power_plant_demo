@@ -10,7 +10,7 @@ SELECT
 
 FROM
 
-  "demo/cellcalc"
+  "demo/cellcalc/ekuiper"
 ```
 
 **Action Handler**  
@@ -29,7 +29,7 @@ SELECT
 
 FROM
 
-  "demo/exception"
+  "demo/exception/ekuiper"
 ```
 **Action Handler**  
 **action:** republish  
@@ -48,7 +48,7 @@ SELECT
 
 FROM
 
-  "demo/calc" 
+  "demo/calc/ekuiper" 
 ```
 **Action Handler**  
 **action:** republish  

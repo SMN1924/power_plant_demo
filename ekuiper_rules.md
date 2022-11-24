@@ -6,7 +6,7 @@ select airc1->ac_vol as ac_vol ,cast(ts,"datetime") as utctime from dt1Stream wh
 ```
 **Actions(Sink):** mqtt  
 **MQTT broker address:** tcp://emqx:1883   
-**MQTT topic:** demo/exception  
+**MQTT topic:** demo/exception/ekuiper  
 **send single:** true  
 **Data template:** 
 ```
@@ -20,7 +20,7 @@ select cellcalc(*),ts as ts from dt1Stream;
 ```
 **Actions(Sink):** mqtt  
 **MQTT broker address:** tcp://emqx:1883   
-**MQTT topic:** demo/cellcalc  
+**MQTT topic:** demo/cellcalc/ekuiper  
 **send single:** true 
 
 # battery calc
@@ -31,7 +31,7 @@ select bcstd(*) from dt1Stream;
 ```
 **Actions(Sink):** mqtt  
 **MQTT broker address:** tcp://emqx:1883   
-**MQTT topic:** demo/calc  
+**MQTT topic:** demo/calc/ekuiper  
 **send single:** true    
 
 # filter
@@ -42,7 +42,7 @@ select * from dt1Stream GROUP BY `type`,TUMBLINGWINDOW(ss, 10);
 ```
 **Actions(Sink):** mqtt  
 **MQTT broker address:** tcp://emqx:1883   
-**MQTT topic:** demo/filter   
+**MQTT topic:** demo/filter/ekuiper   
 **send single:** true  
 
 # data transfer
@@ -247,7 +247,7 @@ select * from neuronStream;
 ```
 **Actions(Sink):** mqtt  
 **MQTT broker address:** tcp://emqx:1883   
-**MQTT topic:** demo/transfer   
+**MQTT topic:** demo/transfer/ekuiper   
 **send single:** true  
 **Data template:** 
 ```

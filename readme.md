@@ -23,7 +23,8 @@ When using EMQ IoT messaging software with Intel® EII, all the modules are runn
 ![workflow](power_plant_screenshots/workflow.png)
 
 # Get Started 
-**Prerequisites** 
+**Prerequisites**
+
 Follow the steps in [Open Edge Insights installation guide](https://open-edge-insights.github.io/pages/running.html#install-open-edge-insights-for-industrial-from-github), Task1 to get the Open EII 3.0 codebase, and Task2 to install prerequisites.
 
 ## Step 1: Run EII Time Series with EMQ
@@ -36,7 +37,7 @@ Follow the steps in [Open Edge Insights installation guide](https://open-edge-in
     If this is first time you run this, you need to set ETCDROOT_PASSWORD, INFLUXDB_USERNAME, and INFLUXDB_PASSWORD in [WORK_DIR]/IEdgeInsights/build/.env. For example, ETCDROOT_PASSWORD='intel'
 
 2. Build ia_telegraf with new config:
-    Replace [WORK_DIR]/IEdgeInsights/Telegraf/config/Telegraf/Telegraf.conf with github link, MQTT input plugin is configured.
+    Replace [WORK_DIR]/IEdgeInsights/Telegraf/config/Telegraf/Telegraf.conf with [Telegraf.conf](Telegraf.conf), MQTT input plugin is configured.
     ```sh
     cd [WORK_DIR]/IEdgeInsights/build
     docker-compose -f docker-compose-build.yml build --no-cache ia_telegraf
